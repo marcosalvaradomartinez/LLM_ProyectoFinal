@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "nombre":"THE LAST OF US PART II ",
+        "imagen":"./img/the-last-of-us-part-ii.jpg",
+        "pegi":18,
+        "desarrollador":"Naughty Dog"
+    },
+    {
+        "id":2,
+        "nombre":"RED DEAD REDEMPTION ii ",
+        "imagen":"./img/red-dead2.jpg",
+        "pegi":18,
+        "desarrollador":"Rockstar Games"
+    },
+    {
+        "id":3,
+        "nombre":"ELDEN RING",
+        "imagen":"./img/elden-ring.jpg",
+        "pegi":16,
+        "desarrollador":"Bandai Namco"
+    },
+    {
+        "id":4,
+        "nombre":"SPIDER-MAN",
+        "imagen":"./img/Marvels-Spiderman-PS4.jpg",
+        "pegi":16,
+        "desarrollador":"Insomniac"
+    }
+]
