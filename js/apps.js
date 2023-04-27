@@ -21,11 +21,24 @@ function printGames(listJSON){
                 <h1>${game.nombre}</h1>
             </div>   
             <div>${game.pegi}</div>
-            <div>${game.desarrollador}</div>    
+            <div>${game.desarrollador}</div> 
+            <div class="favorite">
+                    <i class="fas fa-heart"></i>
+            </div>   
         </article>
         `
-    })
+    });
+    setFavourites();
 }
+
+function setFavourites(){
+    const favouriteFigure = document.querySelectorAll('.fa-heart')
+    favouriteFigure.forEach(e =>{
+        e.addEventListener("click", function(){
+            this.classList.toggle("on")
+        })
+    });
+};
 
 function init(){
     getGames();

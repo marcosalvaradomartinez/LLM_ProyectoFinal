@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <script defer src="./js/apps.js"></script>
     <style>
@@ -13,23 +14,49 @@
             grid-template-columns: repeat(4, 1fr);
         }
         .card {
-            border: 1px solid #000;
-            border-radius: 1.5rem;
             padding: 1rem;
-            width: 250px;
+            width: 12.5rem;
             position: relative;
         }
         .card img {
             width: 100%;
             height: auto;
         }
+        .card h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
 
+        }
+
+        .card .favorite {
+            position: absolute;
+            top: 10px;
+            right: 5px;
+            z-index: 10;
+        }
+
+        .favorite .on {
+            color: red;
+        }
+
+        #figures-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .fa-heart {
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
 
     <main id="grid-games">
-        
+
     </main>
     
 </body>
