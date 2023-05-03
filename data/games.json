@@ -26,5 +26,33 @@
         "imagen":"Marvels-Spiderman-PS4.jpg",
         "pegi":16,
         "desarrollador":"Insomniac"
+    },
+    {
+        "id":5,
+        "nombre":"SPIDER-MAN:MILES MORALES",
+        "imagen":"spidermanmorales.jpg",
+        "pegi":16,
+        "desarrollador":"Insomniac"
+    },
+    {
+        "id":6,
+        "nombre":"BLOODBORNE",
+        "imagen":"bloodborne.jpg",
+        "pegi":16,
+        "desarrollador":"From Software"
+    },
+    {
+        "id":7,
+        "nombre":"THE WITCHER 3:WILD HUNT",
+        "imagen":"thewitcher3.jpg",
+        "pegi":18,
+        "desarrollador":"Bandai Namco"
+    },
+    {
+        "id":8,
+        "nombre":"GOD OF WAR",
+        "imagen":"godofwar.jpg",
+        "pegi":18,
+        "desarrollador":"Santa Monica Studio"
     }
 ]

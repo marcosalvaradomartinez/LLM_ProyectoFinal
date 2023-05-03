@@ -5,103 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="./js/apps.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-    <style>
-        #grid-games{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-        }
-
-        .card {
-            padding: 1rem;
-            width: 12.5rem;
-            position: relative;
-        }
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-        .card h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-
-        }
-
-        .card .favorite {
-            position: absolute;
-            top: 10px;
-            right: 5px;
-            z-index: 10;
-        }
-
-        .favorite .on {
-            color: yellow;
-        }
-
-        .favorite {
-            font-size: 1.2rem;
-            cursor: pointer;
-        }
-
-        swiper-container{
-            width: 100%;
-            height: 15rem;
-            cursor: pointer;
-        }
-
-        #slide, #slide2, #slide3, #slide4{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #slide img, #slide2 img, #slide3 img, #slide4 img{
-            height: 100%;
-        }
-
-        #form {
-        width: 250px;
-        margin: 0 auto;
-        height: 50px;
-        }
-
-        #form label {
-        font-size: 2rem;
-        }
-
-        input[type="radio"] {
-        display: none;
-        }
-
-        label {
-        color: rgb(53, 53, 53);
-        font-size: 1.5rem;
-        }
-
-        .clasificacion {
-        direction: rtl;
-        unicode-bidi: bidi-override;
-        }
-
-        label:hover,
-        label:hover ~ label {
-        color: orange;
-        }
-
-        input[type="radio"]:checked ~ label {
-        color: orange;
-        }
-
-    </style>
 </head>
 <body>
 
-    <section>
+    <header>
+        <h1>GAMES</h1>
+        <input type="search" name="busqueda" id="busqueda" placeholder="Buscar...">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </header>
+
+    <section class="swiper">
         <swiper-container>
           <swiper-slide id="slide"><img src="./img/slider1.jpg" alt=""></swiper-slide>
           <swiper-slide id="slide2"><img src="./img/slider2.jpg" alt=""></swiper-slide>
