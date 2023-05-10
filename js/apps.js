@@ -37,7 +37,7 @@ function printGames(listJSON){
             </div>   
             <div>${game.pegi}</div>
             <div>${game.desarrollador}</div>    
-            <button>Comprar</button>
+            <button id="buy-btn">Comprar</button>
         </article>
         `
     });
